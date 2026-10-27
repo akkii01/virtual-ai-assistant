@@ -22,7 +22,7 @@ A modular, console-based virtual assistant built entirely using Python 3 and the
 ---
 
 ## Project Structure
-```text
+```
 virtual-ai-assistant/
 │── main.py            # Program entry point and intent dispatch loop
 │── greetings.py       # User onboarding and session state management
@@ -32,7 +32,8 @@ virtual-ai-assistant/
 │── game.py            # Stateful number-guessing game with attempt tracking
 │── ai_concepts.py     # Rule-based decision engine and Perceptron simulation
 │── help_menu.py       # Formatted command catalog and interactive guide
-└── README.md          # Complete project documentation```
+└── README.md          # Complete project documentation
+```
 
 ## Installation & Setup
 
