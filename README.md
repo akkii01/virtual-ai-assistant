@@ -40,16 +40,19 @@ virtual-ai-assistant/
 Clone the repository:
 ```
 Bash
+
 git clone [https://github.com/akkii01/virtual-ai-assistant.git](https://github.com/akkii01/virtual-ai-assistant.git)
 ```
 Navigate to the project directory:
 ```
 Bash
+
 cd virtual-ai-assistant
 ```
 Run the assistant:
 ```
 Bash
+
 python main.py
 ```
 
