@@ -38,16 +38,20 @@ virtual-ai-assistant/
 ## Installation & Setup
 
 Clone the repository:
+```
 Bash
 git clone [https://github.com/akkii01/virtual-ai-assistant.git](https://github.com/akkii01/virtual-ai-assistant.git)
-
+```
 Navigate to the project directory:
+```
 Bash
 cd virtual-ai-assistant
-
+```
 Run the assistant:
+```
 Bash
 python main.py
+```
 
 ## Command Catalog
 Command TriggerDescriptionConcept DemonstratedtimeReturns the current formatted system time   Python datetime formatting   dateReturns today's full date   Python datetime formatting   calculate <n1> <op> <n2>Safely evaluates arithmetic expressions (+, -, *, /)   Regex parsing & defensive arithmetic   quoteDelivers randomized motivational wisdom   Random sampling heuristic   jokeDelivers randomized tech/developer humor   Random selection from corpus[cite: 6]factDisplays an AI/Computer Science history fact[cite: 6]Information retrieval analogy[cite: 6]gameInitiates the 5-try number guessing challenge[cite: 6]Stateful loop & conditional logic[cite: 6]recommendContext-aware schedule recommendation[cite: 6]Rule-based AI / Decision Tree[cite: 6]perceptronForward propagation pass of a single neuron[cite: 6]Deep Learning neuron & Step activation[cite: 6]helpDisplays the command catalog[cite: 6]User assistance interface[cite: 6]exit / quitGracefully closes the session[cite: 6]Lifecycle & graceful termination[cite: 6]
