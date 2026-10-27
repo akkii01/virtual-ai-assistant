@@ -57,7 +57,73 @@ python main.py
 ```
 
 ## Command Catalog
-Command Trigger Description Concept Demonstrated timeReturns the current formatted system time   Python datetime formatting   dateReturns today's full date   Python datetime formatting   calculate <n1> <op> <n2>Safely evaluates arithmetic expressions (+, -, *, /)   Regex parsing & defensive arithmetic   quoteDelivers randomized motivational wisdom   Random sampling heuristic   jokeDelivers randomized tech/developer humor   Random selection from corpus[cite: 6]factDisplays an AI/Computer Science history fact[cite: 6]Information retrieval analogy[cite: 6]gameInitiates the 5-try number guessing challenge[cite: 6]Stateful loop & conditional logic[cite: 6]recommendContext-aware schedule recommendation[cite: 6]Rule-based AI / Decision Tree[cite: 6]perceptronForward propagation pass of a single neuron[cite: 6]Deep Learning neuron & Step activation[cite: 6]helpDisplays the command catalog[cite: 6]User assistance interface[cite: 6]exit / quitGracefully closes the session[cite: 6]Lifecycle & graceful termination[cite: 6]
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Command Trigger</th>
+      <th align="left">Description</th>
+      <th align="left">Concept Demonstrated</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>time</code></td>
+      <td>Returns the current formatted system time</td>
+      <td>Python <code>datetime</code> formatting</td>
+    </tr>
+    <tr>
+      <td><code>date</code></td>
+      <td>Returns today's full date</td>
+      <td>Python <code>datetime</code> formatting</td>
+    </tr>
+    <tr>
+      <td><code>calculate &lt;n1&gt; &lt;op&gt; &lt;n2&gt;</code></td>
+      <td>Safely evaluates arithmetic expressions (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>)</td>
+      <td>Regex parsing &amp; defensive arithmetic</td>
+    </tr>
+    <tr>
+      <td><code>quote</code></td>
+      <td>Delivers randomized motivational wisdom</td>
+      <td>Random sampling heuristic</td>
+    </tr>
+    <tr>
+      <td><code>joke</code></td>
+      <td>Delivers randomized tech/developer humor</td>
+      <td>Random selection from corpus</td>
+    </tr>
+    <tr>
+      <td><code>fact</code></td>
+      <td>Displays an AI/Computer Science history fact</td>
+      <td>Information retrieval analogy</td>
+    </tr>
+    <tr>
+      <td><code>game</code></td>
+      <td>Initiates the 5-try number guessing challenge</td>
+      <td>Stateful loop &amp; conditional logic</td>
+    </tr>
+    <tr>
+      <td><code>recommend</code></td>
+      <td>Context-aware schedule recommendation</td>
+      <td>Rule-based AI / Decision Tree</td>
+    </tr>
+    <tr>
+      <td><code>perceptron</code></td>
+      <td>Forward propagation pass of a single neuron</td>
+      <td>Deep Learning neuron &amp; Step activation</td>
+    </tr>
+    <tr>
+      <td><code>help</code></td>
+      <td>Displays the command catalog</td>
+      <td>User assistance interface</td>
+    </tr>
+    <tr>
+      <td><code>exit</code> / <code>quit</code></td>
+      <td>Gracefully closes the session</td>
+      <td>Lifecycle &amp; graceful termination</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Verification & Testing
 The project satisfies all functional requirements (FR-01 through FR-14) outlined in the Nexbridge Technologies PRD[cite: 6]:
