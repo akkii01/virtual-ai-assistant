@@ -38,20 +38,17 @@ virtual-ai-assistant/
 ## Installation & Setup
 
 Clone the repository:
-```
-Bash
+```Bash
 
 git clone https://github.com/akkii01/virtual-ai-assistant.git
 ```
 Navigate to the project directory:
-```
-Bash
+```Bash
 
 cd virtual-ai-assistant
 ```
 Run the assistant:
-```
-Bash
+```Bash
 
 python main.py
 ```
