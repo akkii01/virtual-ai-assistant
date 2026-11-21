@@ -65,3 +65,16 @@ def get_fact():
     choices = [f for f in FACTS if f != _last_fact]
     _last_fact = random.choice(choices)
     return _last_fact
+
+# Backward-compatible aliases so main.py and web_app.py work seamlessly
+def get_random_quote(user_name=""):
+    quote = get_quote()
+    if user_name:
+        return f'Here is a quote for you, {user_name}:\n"{quote}"'
+    return f'"{quote}"'
+
+def get_random_joke():
+    return get_joke()
+
+def get_random_fact():
+    return f"Did you know? {get_fact()}"
