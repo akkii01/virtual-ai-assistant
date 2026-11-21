@@ -70,6 +70,7 @@ Open http://127.0.0.1:5000 in Google Chrome or Microsoft Edge for full Voice Rec
 
 ## Command Catalog
 Core Assistant Commands (Console & Web)
+
 Smart Web & Voice Commands
 
 ## Verification & Testing
