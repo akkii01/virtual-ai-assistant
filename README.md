@@ -74,10 +74,10 @@ Smart Web & Voice Commands
 
 ## Verification & Testing
 
-- • Satisfies all core functional requirements (FR-01 through FR-14) outlined in the Nexbridge Technologies PRD.
+-  Satisfies all core functional requirements (FR-01 through FR-14) outlined in the Nexbridge Technologies PRD.
 
-- • Handles malformed mathematical expressions, zero-division errors, and network timeouts gracefully without crashing.
+-  Handles malformed mathematical expressions, zero-division errors, and network timeouts gracefully without crashing.
 
-- • Retains user identity dynamically within active session memory and cleans voice-transcribed names automatically.
+-  Retains user identity dynamically within active session memory and cleans voice-transcribed names automatically.
 
-- • Console mode runs 100% offline with zero external packages; Web & Voice edition runs locally with only Flask and zero API keys.
+-  Console mode runs 100% offline with zero external packages; Web & Voice edition runs locally with only Flask and zero API keys.
