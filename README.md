@@ -48,16 +48,16 @@ virtual-ai-assistant/
 ```
 
 # Installation & Setup
-## 1. Clone the repository:
+## Step 1. Clone the repository:
 ```
-git clone [https://github.com/akkii01/virtual-ai-assistant.git](https://github.com/akkii01/virtual-ai-assistant.git)
+git clone https://github.com/akkii01/virtual-ai-assistant.git
 cd virtual-ai-assistant
 ```
-## 1. Option A — Run the Console Edition (Zero Dependencies):
+## Step 2 (Option A) — Run the Console Edition (Zero Dependencies):
 ```
 python main.py
 ```
-## 1. Option B — Run the Web & Voice Edition (Recommended):
+## Step 2 (Option B) — Run the Web & Voice Edition (Recommended):
 Install Flask:
 ```
 pip install -r requirements.txt
@@ -69,9 +69,118 @@ python web_app.py
 Open http://127.0.0.1:5000 in Google Chrome or Microsoft Edge for full Voice Recognition and Text-to-Speech support.
 
 ## Command Catalog
-Core Assistant Commands (Console & Web)
+### Core Assistant Commands (Console & Web)
 
-Smart Web & Voice Commands
+<table>
+  <thead>
+    <tr>
+      <th align="left">Command Trigger</th>
+      <th align="left">Description</th>
+      <th align="left">Concept Demonstrated</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>time</code></td>
+      <td>Returns the current formatted system time</td>
+      <td>Python <code>datetime</code> formatting</td>
+    </tr>
+    <tr>
+      <td><code>date</code></td>
+      <td>Returns today's full date</td>
+      <td>Python <code>datetime</code> formatting</td>
+    </tr>
+    <tr>
+      <td><code>calculate &lt;n1&gt; &lt;op&gt; &lt;n2&gt;</code></td>
+      <td>Safely evaluates arithmetic expressions (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>)</td>
+      <td>Regex parsing &amp; defensive arithmetic</td>
+    </tr>
+    <tr>
+      <td><code>quote</code></td>
+      <td>Delivers randomized motivational wisdom</td>
+      <td>Random sampling heuristic</td>
+    </tr>
+    <tr>
+      <td><code>joke</code></td>
+      <td>Delivers randomized tech/developer humor</td>
+      <td>Random selection from corpus</td>
+    </tr>
+    <tr>
+      <td><code>fact</code></td>
+      <td>Displays an AI/Computer Science history fact</td>
+      <td>Information retrieval analogy</td>
+    </tr>
+    <tr>
+      <td><code>game</code></td>
+      <td>Initiates the 5-try number guessing challenge</td>
+      <td>Stateful loop &amp; conditional logic</td>
+    </tr>
+    <tr>
+      <td><code>recommend</code></td>
+      <td>Context-aware schedule recommendation</td>
+      <td>Rule-based AI / Decision Tree</td>
+    </tr>
+    <tr>
+      <td><code>perceptron</code> / <code>perceptron 0.2 0.1</code></td>
+      <td>Forward propagation pass of a single artificial neuron</td>
+      <td>Deep Learning neuron, Step &amp; Sigmoid activation</td>
+    </tr>
+    <tr>
+      <td><code>help</code></td>
+      <td>Displays (and reads aloud in Web UI) the command catalog</td>
+      <td>User assistance interface</td>
+    </tr>
+    <tr>
+      <td><code>exit</code> / <code>quit</code></td>
+      <td>Gracefully closes the session</td>
+      <td>Lifecycle &amp; graceful termination</td>
+    </tr>
+  </tbody>
+</table>
+
+### Smart Web & Voice Commands
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Command Example</th>
+      <th align="left">Description</th>
+      <th align="left">Module / Engine</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>tell me about machine learning within 100 words</code></td>
+      <td>Fetches exact Wikipedia summary trimmed to requested word count (short, detailed, or 20&ndash;10,000 words)</td>
+      <td><code>KnowledgeEngine</code></td>
+    </tr>
+    <tr>
+      <td><code>explain RAG in detail</code> / <code>what is NLP</code></td>
+      <td>Resolves technical acronyms and reads full multi-section explanations aloud</td>
+      <td><code>KnowledgeEngine</code> + Speech Queue</td>
+    </tr>
+    <tr>
+      <td><code>add task &lt;name&gt;</code> / <code>my tasks</code></td>
+      <td>Adds or displays persistent tasks stored locally in <code>tasks.json</code></td>
+      <td><code>TaskAndTimerManager</code></td>
+    </tr>
+    <tr>
+      <td><code>complete task 1</code> / <code>delete task 1</code></td>
+      <td>Marks a task complete, deletes an entry, or clears all tasks</td>
+      <td><code>TaskAndTimerManager</code></td>
+    </tr>
+    <tr>
+      <td><code>start 25 minute timer</code></td>
+      <td>Starts a live focus timer with voice/UI <code>pause timer</code>, <code>resume timer</code>, and <code>stop timer</code> controls</td>
+      <td><code>TaskAndTimerManager</code> + JS Timer</td>
+    </tr>
+    <tr>
+      <td><code>summarize: &lt;paragraph&gt;</code> / <code>analyze: &lt;text&gt;</code></td>
+      <td>Generates a 2-sentence extractive summary, sentiment polarity score, and top keywords offline</td>
+      <td><code>OfflineNLPEngine</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Verification & Testing
 
