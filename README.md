@@ -47,7 +47,7 @@ virtual-ai-assistant/
 └── README.md            # Complete project documentation
 ```
 
-Installation & Setup
+# Installation & Setup
 ## 1. Clone the repository:
 ```
 git clone [https://github.com/akkii01/virtual-ai-assistant.git](https://github.com/akkii01/virtual-ai-assistant.git)
